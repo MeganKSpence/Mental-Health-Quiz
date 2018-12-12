@@ -7,57 +7,68 @@
 
 <body>
 
+  <link rel="stylesheet" href="StyleSheet.css">
 
+  <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
 
- <link rel="stylesheet" href="StyleSheet.css">
-
- <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
-
-<p style="color:blue;">Welcome to our survey!</p>
   <a href="IntroductionPage.html" class="button">Mental Health Test</a>
   <header><h3>If at anypoint you wish to leave this test you can either click the title above, or there is a "return to main menu" button at the bottom of each page</h3></header>
 
- <p>Welcome to our survey!</p>
+  <styleText><p>Welcome to our survey!</p></styleText>
 
-      <form action="index.php" name="myform" method="POST">
+  <form action="index.php" name="myform" method="POST">
 
-      *Optional<br><br>
-      First name :<input type="text" name="firstname"><br>
-      Last name : <input type="text" name="lastname"><br><br>
+  *Optional<br><br>
+  First name :<input type="text" name="firstname"><br>
+  Last name : <input type="text" name="lastname"><br><br>
 
 
 
-    Have you ever been bullied?<br><br>
-    <input type= "radio" name="Button1" value="Yes">Yes<br><br>
-    <input type= "radio" name="Button1" value="No">No<br><br>
-    <input type= "radio" name="Button1" value="I'm not sure">I'm not sure<br><br>
+  Have you ever been bullied?<br><br>
+  <fieldset id="group1">
+    <input type= "radio" name="Button1" value="group1">Yes<br><br>
+    <input type= "radio" name="Button1" value="group1">No<br><br>
+    <input type= "radio" name="Button1" value="group1">I'm not sure<br><br>
+  </fieldset>
 
      Do always feel sad or down?<br><br>
-    <input type= "radio" name="Button1" value="All the time">All the time<br><br>
-    <input type= "radio" name="Button1" value="Sometimes">Sometimes<br><br>
-    <input type= "radio" name="Button1" value="Rarely">Rarely<br><br>
-    <input type= "radio" name="Button1" value="Never">Never<br><br>
+  <fieldset id="group2">
+    <input type= "radio" name="Button1" value="group2">All the time<br><br>
+    <input type= "radio" name="Button1" value="group2">Sometimes<br><br>
+    <input type= "radio" name="Button1" value="group2">Rarely<br><br>
+    <input type= "radio" name="Button1" value="group2">Never<br><br>
+  </fieldset>
 
     How often are you happy?<br><br>
-    <input type= "radio" name="Button1" value= "I'm always happy">I'm always happy<br><br>
-    <input type= "radio" name="Button1" value= "Occasionally">Occasionally<br><br>
-    <input type= "radio" name="Button1" value= "I never feel happy"> I never feel happy<br><br>
+  <fieldset id="group3">
+    <input type= "radio" name="Button1" value= "group3">I'm always happy<br><br>
+    <input type= "radio" name="Button1" value= "group3">Occasionally<br><br>
+    <input type= "radio" name="Button1" value= "group3"> I never feel happy<br><br>
+  </fieldset>
 
    Is your family aware that you have mental illness?<br><br>
-    <input type="radio" name= "button1" value="yes">Yes<br><br>
-    <input type="radio" name= "button1" value= "Im too scared to tell them">Im too scared to tell them<br><br>
-    <input type="radio" name= "button1" value="yes">Yes<br><br>
-    <input type= "radio" name="Button1" value= "I've never gotten a chance too">I never got the chance to<br><br>
+  <fieldset id="group4">
+    <input type="radio" name= "button1" value="group4">Yes<br><br>
+    <input type="radio" name= "button1" value= "group4">Im too scared to tell them<br><br>
+    <input type="radio" name= "button1" value="group4">Yes<br><br>
+    <input type= "radio" name="Button1" value= "group4">I never got the chance to<br><br>
+  </fieldset>
 
     Do you think that you have mental illness? <br><br>
-    <input type="radio" name= "button1" value="yes">Yes<br><br>
-    <input type="radio" name= "button1" value="no">no<br><br>
-    <input type="radio" name= "button1" value="maybe">maybe<br><br>
-    <input type="radio" name= "button1" value="I'm not really sure what it is">I'm not really sure what it is<br><br>
-    <input type="radio" name="Button2" value="Yes">Yes<br></br>
-    <input type="radio" name="Button2" value="No">No<br></br>
+  <fieldset id="group5">
+    <input type="radio" name= "button1" value="group5">Yes<br><br>
+    <input type="radio" name= "button1" value="group5">no<br><br>
+    <input type="radio" name= "button1" value="group5">maybe<br><br>
+    <input type="radio" name= "button1" value="group5">I'm not really sure what it is<br><br>
+  </fieldset>
 
     <a href="IntroductionPage.html" class="button">Return To Main Menu</a>
+<style>
+styleText {
+  color: DarkBlue;
+  font-size: 30px;
+}
+</style>
 
          </body>
     </html>
