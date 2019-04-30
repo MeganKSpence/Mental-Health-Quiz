@@ -1,18 +1,11 @@
 console.log("Welcome to MHpage1 Java!");
-var total = 0;
-var ad3 = 0;
-var ad1 = 0;
+let q1a = 0;
+console.log(q1a);
 
-function add1() {
-  ad1 = ad1+1;
-  total = ad1;
-  console.log("Yep!")
-  console.log(total);
-}
+function q1() {
+  var q1a = document.getElementById("q1a1").value;
+  var q1a = document.getElementById("q1a2").value;
+  var q1a = document.getElementById("q1a3").value;
+  console.log(q1a);
 
-function add3() {
-   ad3 = ad3+3;
-   total = ad3;
-   console.log("Yay!");
-   console.log(total);
 }
